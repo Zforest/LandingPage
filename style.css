@@ -183,7 +183,66 @@
 .calltoaction-segment {
     background-color: #fff;
     display:flex;
-    flex-direction: column;
     width: auto;
     height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction-box {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 900px;
+    padding: 0 100px;
+}
+
+.calltoaction-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction-title {
+    color: #F9FAF8;
+    font-family: roboto;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.calltoaction-subtext {
+    color: #E5E7EB;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.calltoaction-button {
+    font-family: roboto;
+    color: #fff;
+    text-align: center;
+    background-color: #3882F6;
+    border-style: solid;
+    padding: 5px;
+    width: 125px;
+    height: 35px;
+    border-color: #fff;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 12px;
+    display:flex;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
