@@ -156,12 +156,32 @@
     background-color: #E5E7EB;
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: 500px;
 }
 
+.quote-text {
+    font-family: roboto;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    padding: 10px;
+    margin: 10px;
+}
+
+.quote-by {
+    font-family: roboto;
+    font-size: 18px;
+    color: #1F2937;
+    margin-right: 100px;
+    align-self: self-end;
+}
+
 .calltoaction-segment {
-    background-color: #E5E7EB;
+    background-color: #fff;
     display:flex;
     flex-direction: column;
     width: auto;
